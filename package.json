@@ -1,10 +1,12 @@
 {
-  "name": "uniapp",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@jonas.yans/uniapp",
+  "version": "1.0.1",
+  "description": "jonas's uniapp tool package",
+  "private":false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "lib":"vue-cli-service build --target lib packages/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
